@@ -96,3 +96,5 @@ def sample(pi, sigma, mu):
     for i, idx in enumerate(pis):
         sample[i] = sample[i].mul(sigma[i,idx]).add(mu[i,idx])
     return sample
+
+
